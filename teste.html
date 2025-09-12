@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com Bootstrap</title>
+    <link rel="stylesheet" href="style_teste.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Minha Landing Page</h1>
+            <p class="lead">Um exemplo simples usando seu CSS (Bootstrap 5)</p>
+            <a href="#formulario" class="btn btn-primary btn-lg">Quero Participar</a>
+        </div>
+    </header>
+
+    <!-- Seção em Grid -->
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>🚀 Rápido</h3>
+                <p>Conteúdo otimizado para qualquer dispositivo.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>🎨 Bonito</h3>
+                <p>Layout responsivo usando grid do Bootstrap.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>⚡ Eficiente</h3>
+                <p>Menos código, mais produtividade.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section id="formulario" class="container my-5">
+        <h2 class="text-center mb-4">Cadastre-se</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" id="email" class="form-control" placeholder="Digite seu e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="opcao" class="form-label">Selecione uma opção</label>
+                <select id="opcao" class="form-select">
+                    <option value="">Escolha...</option>
+                    <option value="1">Primeira opção</option>
+                    <option value="2">Segunda opção</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Tabela de exemplo -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Tabela de Participantes</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-dark text-center">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joao@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria</td>
+                        <td>maria@email.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-center text-white py-3">
+        <p class="mb-0">&copy; 2025 Minha Empresa - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
